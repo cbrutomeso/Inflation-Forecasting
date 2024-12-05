@@ -56,17 +56,11 @@ All plots are saved as PNG images in the 'figures' folder.
 
 ## Possible Future Steps
 
-1. **Model Refinement**: Explore different modeling techniques and improve the prediction accuracy for inflation forecasts. This could involve experimenting with more advanced time series models like ARIMA, SARIMA, or machine learning-based models such as Random Forest or XGBoost.
-   
+1. **Model Refinement**: Explore different modeling techniques and improve the prediction accuracy for inflation forecasts. This could involve experimenting with more advanced time series models or machine learning-based models.  
 2. **External Data Sources**: Integrate additional macroeconomic indicators or external datasets that might improve the forecast, such as interest rates, housing market data, or global economic indicators.
-
-3. **Extended Forecasting Horizon**: Extend the forecasting horizon beyond two steps ahead, allowing for longer-term inflation predictions. This would require additional modifications to the model and validation techniques.
-
-4. **Model Evaluation**: Implement a more robust evaluation framework, including backtesting the model on out-of-sample data and comparing its performance to other baseline models, such as a simple moving average or a naive forecast.
-
-5. **Automation**: Automate the entire forecasting pipeline by integrating it with a database that continuously updates the macroeconomic data, enabling real-time inflation forecasting.
-
-6. **Visualization Enhancements**: Add interactive data visualizations, such as interactive plots or dashboards, to help users better understand the results and trends in the inflation forecast.
+3. **Extended Forecasting Horizon**: Extend the forecasting horizon beyond two steps ahead, allowing for longer-term inflation predictions. 
+4. **Automation**: Automate the entire forecasting pipeline by integrating it with a database that continuously updates the macroeconomic data, enabling real-time inflation forecasting.
+5. **Visualization Enhancements**: Add interactive data visualizations, such as interactive plots or dashboards, to help users better understand the results and trends in the inflation forecast.
 
 ## Requirements
 To run the code, you will need the following Python libraries:
