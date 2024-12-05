@@ -194,7 +194,7 @@ print(f"\nBest model based on RMSE: {best_rmse_model}")
 print(f"Best model based on MAE: {best_mae_model}")
 
 # Plot RMSE and MAE comparison for each model
-fig, ax = plt.subplots(1, 2, figsize=(14, 6))
+fig, ax = plt.subplots(1, 2, figsize=(15, 8))
 
 # RMSE plot
 ax[0].bar(model_names, rmse, color='skyblue')
@@ -215,7 +215,7 @@ plt.show()
 """
 Plot forecast errors
 """
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(15, 8))
 plt.plot(forecast_errors[:, 0], label='RW Errors', linestyle='--', alpha=0.7)
 plt.plot(forecast_errors[:, 1], label='Naive Errors', linestyle=':', alpha=0.7)
 plt.plot(forecast_errors[:, 2], label='ARIMA Errors', linestyle='-.', alpha=0.7)
