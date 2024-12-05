@@ -43,9 +43,11 @@ The Random Walk model had the best performance based on the RMSE, but the **ARIM
 The following plots are generated in this project:
 
 1. **Real vs. Forecasted Inflation**: Comparison of real inflation data with forecasts from all models.
-2. **RMSE and MAE Comparison**: A bar plot showing the RMSE and MAE of each model.
-3. **Forecast Errors**: A plot comparing the forecast errors for all models.
-4. **Weighted Forecast**: A combined forecast that uses weights proportional to the RMSE of each model.
+   ![Inflation Forecast](images/forecast_plot.png)
+
+3. **RMSE and MAE Comparison**: A bar plot showing the RMSE and MAE of each model.
+4. **Forecast Errors**: A plot comparing the forecast errors for all models.
+5. **Weighted Forecast**: A combined forecast that uses weights proportional to the RMSE of each model.
 
 All plots are saved as PNG images in the 'figures' folder.
 
